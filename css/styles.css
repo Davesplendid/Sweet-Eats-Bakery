@@ -16,7 +16,9 @@ As usual, host your completed project on Github Pages and share the link for the
 
 
 /*======= Create a new universal selector that changes the font color to: #3C373B */
-
+*{
+  color: #3C373B;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
@@ -35,7 +37,7 @@ h2, h3, h4, h5, h6 {
 
 /*======= Create a selector for ALL p tags in the site to have the following styles:
 */
-.brown{
+p{
   font-size: 16px;
   font-family: roboto;
   padding: 10px;
@@ -107,6 +109,11 @@ img{
 
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
 */
+address{
+  line-height: 2;
+}
+
+
 .contact-section{
   line-height: 2;
 }
@@ -135,7 +142,7 @@ footer nav {
 
 /*======= Create a selector for the anchor tag in the footer to have the following styles:
 */
-.footer-content{
+.footer-content a{
   margin: 10px;
   color: black;
   text-decoration: underline;
@@ -149,7 +156,7 @@ footer nav a:first-child {
 
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
 */
-footer nav :hover{
+.footer-content a:hover{
   color: white;
 }
 
